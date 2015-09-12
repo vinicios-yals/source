@@ -121,3 +121,11 @@ User
 |!theme | | links to the room's theme (if set in the settings) |
 |!website | | links to the room's website (if set in the settings) |
 |!youtube | | links to the room's youtube page (if set in the settings) |
+|!thor | | You have a 10% chance on being worthy of lifting Mjolnir, if you are, you'll be moved to 1st in the WL, otherwise you'll be moved to last. By default, each use can use the command every 10 minutes.
+
+If you're already 1st and you're also worthy, the message will be sent but you won't be moved.
+If you're last on the wl and you're not worthy, you will remain on the same spot.
+If you're not on the waitlist, "You're not even close to lifting the hammer".
+The cooldown can be changed, and its per-user.
+There needs to be a toggle for thor, it does toggle with user commands but thats it.
+The pos that worthy users are moved can't be changed as of now. |
