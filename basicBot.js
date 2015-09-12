@@ -3745,7 +3745,7 @@
                             return API.sendChat(subChat(basicBot.chat.thorWorthy, {name: from}));
                         } else if (!inDjList) {
                             return API.sendChat(subChat(basicBot.chat.thorNotClose, {name: from}));
-                        } else if (API.getWaitListPosition(id)) != djlist.length) {
+                        } else if (API.getWaitListPosition(id) != djlist.length) {
                             basicBot.userUtilities.moveUser(id, djlist.length, false);
                             return API.sendChat(subChat(basicBot.chat.thorNotWorthy, {name: from}));
                         } else {
