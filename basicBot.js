@@ -3699,7 +3699,7 @@
                             thorCd = false,
                             timeInMinutes = 0,
                             worthyAlg = Math.floor(Math.random() * 10),
-                            worthy = worthyAlg == 10 ? true : false,
+                            worthy = worthyAlg == 10 ? true : false;
 
                         for (var i = 0; i < djlist.length; i++) {
                             if (djlist[i] == id)
