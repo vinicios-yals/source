@@ -310,8 +310,8 @@
                 NSFW: "https://rawgit.com/bscBot/custom/master/blacklists/NSFWlist.json",
                 OP: "https://rawgit.com/bscBot/custom/master/blacklists/OPlist.json",
                 BANNED: "https://rawgit.com/bscBot/custom/master/blacklists/BANNEDlist.json"
-            }
-            thorInterval: 10,
+            },
+            thorInterval: 10
         },
         room: {
             name: null,
@@ -386,8 +386,8 @@
                         basicBot.userUtilities.moveUser(winner, pos, false);
                     }, 1 * 1000, winner, pos);
                 }
-            }
-            usersUsedThor: [],
+            },
+            usersUsedThor: []
         },
         User: function (id, name) {
             this.id = id;
